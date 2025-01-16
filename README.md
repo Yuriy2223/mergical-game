@@ -1,1 +1,0 @@
-# mergical-game
