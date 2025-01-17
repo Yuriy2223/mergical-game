@@ -1,8 +1,18 @@
-@import 'normalize.css';
-@import 'variables.scss';
+@use 'variables';
+@use 'header';
+@use "reset";
 
-#app{
-  width: 100vw;
-  height: 100vh;
-  background-color: aqua;
+// @import 'normalize.css';
+
+
+// :root {
+//   --font-family: "Mali", sans-serif;
+//   --second-family: "Piedra", sans-serif;
+//   --third-family: "Inter", sans-serif;
+//   --background: #0f6691;
+// }
+
+body{
+  font-family: "Mali", sans-serif;
+// background-color: #0f6691;
 }

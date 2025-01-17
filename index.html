@@ -1,15 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mali:wght@500;600&family=Inter:wght@400;700&family=Piedra:wght@400&display=swap"
+      rel="stylesheet"
+    />
     <title>Mergical - Fun Match Island Game</title>
   </head>
   <body>
-    <div id="app">
-      <div class="test"></div>
-    </div>
+    <main class="main">
+      <section class="container about">
+        <h2 class="about-title">About the Game</h2>
+        <p class="about-text">
+          Mergical invites you to a mystical island shrouded in mystery. Once a
+          flourishing paradise, the island now lies under a dark spell. Using
+          your merging skills and a touch of magic, revive the island and
+          restore it to its former glory.
+          <span class="about-span"
+            >Solve enchanting puzzles, awaken mythical creatures, and design a
+            magical realm filled with beauty and wonder.</span
+          >
+        </p>
+        <picture>
+          <source
+            srcset="./public/images/about/image-girl-2.webp"
+            media="(min-width: 1200px)"
+          />
+          <img
+            src="./public/images/about/image-girl-2мob.webp"
+            alt="image girl"
+            class="about-img-girl"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="./public/images/about/image-heart-2.webp"
+            media="(min-width: 1200px)"
+          />
+          <img
+            src="./public/images/about/image-heart-2мob.webp"
+            alt="image heart"
+            class="about-img-heart"
+          />
+        </picture>
+        <img
+          src="./public/images/about/image-island.webp"
+          alt="image island"
+          class="about-img-island"
+        />
+        <img
+          src="./public/images/about/image-girl-1.webp"
+          alt="image girl"
+          class="about-girl"
+        />
+        <img
+          src="./public/images/about/image-heart.webp"
+          alt="image heart"
+          class="about-heart"
+        />
+      </section>
+      <section class="container magical-atmosphere"></section>
+    </main>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
