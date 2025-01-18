@@ -4,20 +4,63 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../../public/images/footer/footer-mob.webp);
-  background-size: cover; 
-  background-position: center; 
+  background-image: url(/images/footer/footer-mob.webp);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 
   @media screen and (min-width: 1200px) {
-    background-image: url(../../public/images/footer/footer-1200.webp);
+    background-image: url(/images/footer/footer-1200.webp);
+    height: 248px;
   }
 }
+
 .footer-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (min-width: 1200px) {
+    width: 407px;
+  }
 }
-.policy {
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 1200px) {
+    gap: 120px;
+    margin-bottom: 32px;
+  }
 }
+
+.policy,
 .service {
+  text-decoration: underline;
+  font-family: "Mali", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
+
 .reserved {
+  font-family: "Mali", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  width: 198px;
+
+  @media screen and (min-width: 1200px) {
+    width: 100%;
+    font-size: 18px;
+  }
 }
