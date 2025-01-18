@@ -1,0 +1,86 @@
+.btn-goback {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #000;
+
+  border-radius: 12px;
+  padding: 8px 12px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.25);
+  background: #e7c000;
+  transition: all 300ms ease;
+  display: inline-block;
+
+  &:hover,
+  &:active {
+    transform: scale(1.03);
+    box-shadow: 0 4px 20px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+}
+.title-privacy {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fcfcf0;
+
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-family: "Piedra", sans-serif;
+    font-size: 48px;
+  }
+}
+.text-privacy {
+  font-family: "Mali", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fcfcf0;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+.subtitle-privacy {
+  font-family: "Mali", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fcfcf0;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 22px;
+  }
+}
+.privacy-list {
+  font-family: "Mali", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fcfcf0;
+  list-style: disc;
+  padding-left: 16px;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+.privacy-link {
+  font-family: "Mali", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fcfcf0;
+  margin-bottom: 16px;
+  text-decoration: underline;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}

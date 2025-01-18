@@ -1,5 +1,5 @@
 .footer {
-  width: 100%;
+  width: 320px;
   height: 122px;
   display: flex;
   align-items: center;
@@ -11,6 +11,7 @@
 
   @media screen and (min-width: 1200px) {
     background-image: url(/images/footer/footer-1200.webp);
+    width: 1200px;
     height: 248px;
   }
 }
@@ -44,7 +45,12 @@
   font-weight: 700;
   font-size: 14px;
   color: #000;
-  
+  transition: all 300ms ease;
+
+  &:hover,
+  &:active {
+    color: #f3be00;
+  }
 
   @media screen and (min-width: 1200px) {
     font-size: 18px;
