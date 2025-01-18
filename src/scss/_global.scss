@@ -1,0 +1,25 @@
+body{
+  font-family: "Mali", sans-serif;
+}
+
+main{
+  width: 320px;
+  margin: 0 auto;
+  background-color:  #0f6691;
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.container {
+  width: 320px;
+  padding: 16px 24px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    padding: 80px 72px ;
+  }
+}
+

@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../public/images/footer/footer-mob.webp);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 1200px) {
+    background-image: url(../../public/images/footer/footer-1200.webp);
+  }
+}
+.footer-wrap {
+}
+.policy {
+}
+.service {
+}
+.reserved {
+}

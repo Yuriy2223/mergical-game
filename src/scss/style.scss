@@ -1,18 +1,6 @@
-@use 'variables';
-@use 'header';
 @use "reset";
-
-// @import 'normalize.css';
-
-
-// :root {
-//   --font-family: "Mali", sans-serif;
-//   --second-family: "Piedra", sans-serif;
-//   --third-family: "Inter", sans-serif;
-//   --background: #0f6691;
-// }
-
-body{
-  font-family: "Mali", sans-serif;
-// background-color: #0f6691;
-}
+@use "global";
+@use 'variables';
+@use 'about';
+@use 'magikal-atmosphera';
+@use 'footer';
