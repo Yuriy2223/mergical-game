@@ -1,0 +1,21 @@
+.gallery {
+  background: linear-gradient(180deg, #024d55 0%, #0f6691 100%);
+
+  @media screen and (min-width: 1200px) {
+    background: linear-gradient(180deg, #034e58 22.22%, #0f6691 100%);
+  }
+}
+.gallery-title {
+  font-family: "Piedra", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #f3be00;
+  margin-bottom: 16px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+}

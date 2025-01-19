@@ -25,7 +25,7 @@
   font-weight: 500;
   font-size: 14px;
   color: #fcfcf0;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 
   @media screen and (min-width: 1200px) {
     font-size: 18px;
@@ -36,20 +36,15 @@
 .create-magic-wrap-btn {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-
-  @media screen and (min-width: 1200px) {
-    width: 446px;
-    margin: 0 auto;
-  }
+  justify-content: center;
 }
 .google-play-link {
   border-radius: 12px;
-  padding: 4px 12px;
-  width: 130px;
-  height: 42px;
+  padding: 4px 22px;
+  width: 150px;
+  height: 50px;
 
-  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px 4px rgba(167, 139, 1, 0.8);
   background: #e7c000;
   display: flex;
   align-items: center;
@@ -58,14 +53,14 @@
 
   &:hover,
   &:active {
-    transform: scale(1.03);
+    transform: scale(0.9);
     box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.4);
   }
 
   @media screen and (min-width: 1200px) {
-    width: 178px;
+    width: 185px;
     height: 67px;
-    padding: 8px 24px;
+    padding: 8px 16px;
     gap: 14px;
   }
 }
@@ -78,7 +73,10 @@
 
   span {
     font-weight: 700;
-    color: #226e90;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 20px;
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -88,39 +86,6 @@
 .google-play-img {
   width: 20px;
   height: 21px;
-
-  @media screen and (min-width: 1200px) {
-  }
-}
-.link-game {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.5;
-  color: #000;
-
-  border-radius: 12px;
-  padding: 4px 16px;
-  width: 130px;
-  height: 42px;
-
-  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.25);
-  background: #e7c000;
-  display: inline-block;
-  transition: all 300ms ease;
-
-  &:hover,
-  &:active {
-    transform: scale(1.03);
-    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.4);
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 178px;
-    height: 67px;
-    font-size: 16px;
-    padding: 8px 26px;
-  }
 }
 .create-magic-img-1 {
   width: 70px;

@@ -1,25 +1,11 @@
-.container {
-  width: 320px;
-  margin: 0 auto;
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-  }
-}
-
 .about {
   position: relative;
-  padding: 24px 58px 81px 16px;
   background: linear-gradient(180deg, #024d55 0%, #0f6691 100%);
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
-    height: 755px;
-    padding: 80px 58px 81px 16px;
     background: linear-gradient(180deg, #024d55 45.67%, #0f6691 100%);
   }
 }
-
 .about-title {
   font-family: "Piedra", sans-serif;
   font-weight: 400;
@@ -31,100 +17,113 @@
 
   @media screen and (min-width: 1200px) {
     font-size: 48px;
-    margin-bottom: 55px;
+    margin-bottom: 92px;
   }
 }
-
 .about-text {
   font-family: "Mali", sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #fcfcf0;
+  margin-bottom: 44px;
+
+  span {
+    width: 142px;
+    display: block;
+
+    @media screen and (min-width: 1200px) {
+      width: 100%;
+      display: inline;
+    }
+  }
 
   @media screen and (min-width: 1200px) {
     font-size: 18px;
     width: 466px;
     margin: 0 auto;
+    margin-bottom: 372px;
   }
 }
-
-.about-span {
-  width: 194px;
-  display: block;
-
-  @media screen and (min-width: 1200px) {
-    width: 100%;
-    display: inline;
-  }
-}
-
-.about-img-girl {
-  width: 100px;
-  height: 115px;
-  position: absolute;
-  right: 14px;
-  bottom: 90px;
-
-  @media screen and (min-width: 1200px) {
-    /* content: url("./public/images/about/image girl 2.webp"); */
-    width: 268px;
-    height: 307px;
-    top: 56px;
-    right: 108px;
-  }
-}
-
-.about-img-heart {
-  width: 116px;
-  height: 73px;
-  position: absolute;
-  right: 14px;
-  bottom: 44px;
-
-  @media screen and (min-width: 1200px) {
-    /* content: url("./public/images/about/image heart 2.webp"); */
-    width: 310px;
-    height: 194px;
-    right: 74px;
-    bottom: 270px;
-  }
-}
-
-.about-img-island {
-  display: none;
-
-  @media screen and (min-width: 1200px) {
-    display: block;
-    width: 515px;
-    height: 315px;
-    position: absolute;
-    left: 392px;
-    bottom: 70px;
-  }
-}
-
-.about-girl {
-  display: none;
-
-  @media screen and (min-width: 1200px) {
-    display: block;
-    width: 193px;
-    height: 257px;
-    position: absolute;
-    left: 150px;
-    bottom: 180px;
-  }
-}
-
 .about-heart {
+  width: 150px;
+  height: 94px;
+  position: absolute;
+  right: 10px;
+  bottom: 24px;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+.about-coin {
   display: none;
 
   @media screen and (min-width: 1200px) {
     display: block;
-    width: 310px;
-    height: 194px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    left: 48px;
-    bottom: 58px;
+    left: 100px;
+    top: 124px;
+  }
+}
+.about-flower-pot {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 110px;
+    bottom: 240px;
+  }
+}
+.about-tree {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 366px;
+    bottom: 80px;
+  }
+}
+.about-plant {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 366px;
+    bottom: 80px;
+  }
+}
+.about-flower {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 140px;
+    bottom: 250px;
+  }
+}
+.about-note {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    top: 124px;
   }
 }
