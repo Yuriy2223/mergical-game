@@ -1,4 +1,4 @@
-.gallery {
+.gallery-section {
   background: linear-gradient(180deg, #024d55 0%, #0f6691 100%);
 
   @media screen and (min-width: 1200px) {

@@ -1,0 +1,20 @@
+.reviews-section {
+  background: linear-gradient(180deg, #0f6691 0%, #024d55 100%);
+
+  @media screen and (min-width: 1200px) {
+    background: linear-gradient(180deg, #0e648c 40.19%, #024d55 100%);
+  }
+}
+.reviews-title {
+  font-family: "Piedra", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #f3be00;
+  text-align: center;
+  margin-bottom: 22px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 40px;
+  }
+}
