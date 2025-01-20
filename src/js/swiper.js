@@ -3,7 +3,6 @@ import "swiper/swiper-bundle.css";
 import Swiper from "swiper";
 
 const swiper = new Swiper(".swiper-container", {
-  // Опції
   direction: "horizontal",
   loop: true,
   pagination: {
