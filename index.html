@@ -14,8 +14,35 @@
     <section class="header-section">
       <div class="heder-container">
         <a href="./index.html" class="logo">
-          <img src="./public/images/" alt="logo-game" class="logo-img" />
+          <picture>
+            <source
+              srcset="/images/logo/logo-1200.webp"
+              media="(min-width: 1200px)"
+            />
+            <img
+              src="/images/logo/logo-mob.webp"
+              alt="logo-game"
+              class="logo-img"
+            />
+          </picture>
         </a>
+        <button class="burger-menu" type="button">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 10H35M5 20H35M5 30H35"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="nav-item">
@@ -48,6 +75,21 @@
             </li>
           </ul>
         </nav>
+
+        <button class="burger-menu-close" type="button">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.6663 31.6667L8.33301 29.3333L17.6663 20L8.33301 10.6667L10.6663 8.33333L19.9997 17.6667L29.333 8.33333L31.6663 10.6667L22.333 20L31.6663 29.3333L29.333 31.6667L19.9997 22.3333L10.6663 31.6667Z"
+              fill="black"
+            />
+          </svg>
+        </button>
       </div>
     </section>
 
