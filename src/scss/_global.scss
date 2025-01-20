@@ -1,6 +1,6 @@
 body{
   font-family: "Mali", sans-serif;
-  background-color: #26a7ac;
+  background-color: #0f6691;
   font-weight: 400;
 }
 
@@ -8,6 +8,7 @@ body{
   width: 320px;
   padding: 16px 24px;
   margin: 0 auto;
+  position: relative;
 
   @media screen and (min-width: 1200px) {
     width: 1200px;
