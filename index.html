@@ -12,9 +12,9 @@
   </head>
   <body>
     <section class="header-section">
-      <div class="heder-wrapper">
-        <a href="" class="logo">
-          <img src="./index.html" alt="logo-game" class="logo-img" />
+      <div class="heder-container">
+        <a href="./index.html" class="logo">
+          <img src="./public/images/" alt="logo-game" class="logo-img" />
         </a>
         <nav class="header-nav">
           <ul class="header-nav-list">
@@ -51,129 +51,138 @@
       </div>
     </section>
 
-    <section id="hero" class="hero-section"></section>
+    <section id="hero" class="hero-section">
+      <div class="container"></div>
+    </section>
 
     <main>
-      <section id="about" class="container about-section">
-        <h2 class="about-title">About the Game</h2>
-        <p class="about-text">
-          Mergical invites you to a mystical island shrouded in mystery. Once a
-          flourishing paradise, the island now lies under a dark spell. Using
-          your merging skills and a touch of magic, revive the island and
-          restore it to its former glory. Solve enchanting puzzles, awaken
-          mythical creatures,<span
-            >and designa magical realm filled with beauty and wonder.</span
-          >
-        </p>
-        <img
-          src="/images/about/about-heart-mob.webp"
-          alt="image heart"
-          class="about-heart"
-        />
-        <img
-          src="/images/about/coin-1.webp"
-          alt="image coin"
-          class="about-coin"
-        />
-        <img
-          src="/images/about/flower-pot-2.webp"
-          alt="image flower pot"
-          class="about-flower-pot"
-        />
-        <img
-          src="/images/about/tree-3.webp"
-          alt="image tree"
-          class="about-tree"
-        />
-        <img
-          src="/images/about/plant-4.webp"
-          alt="image plant"
-          class="about-plant"
-        />
-        <img
-          src="/images/about/flower-5.webp"
-          alt="image flower"
-          class="about-flower"
-        />
-        <img
-          src="/images/about/note-6.webp"
-          alt="image note"
-          class="about-note"
-        />
-      </section>
-      <section id="magical-atmosphere" class="container magical-atmosphere-section">
-        <h2 class="atmosphere-title">Magical Atmosphere</h2>
-        <p class="atmosphere-subtitle">
-          The game offers a truly enchanting experience
-        </p>
-        <div class="wonder-wrap">
-          <picture>
-            <source
-              srcset="./images/magical-atmosphere/mockup-1-1200.webp"
-              media="(min-width: 1200px)"
-            />
-            <img
-              src="./images/magical-atmosphere/mockup-1mob.webp"
-              alt="scrinshot game"
-              class="mockup-1mob"
-            />
-          </picture>
-          <p class="wonder-wrap-text">
-            Visual Wonders: Immerse yourself in lush, glowing landscapes,
-            sparkling magical items, and radiant effects.
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 class="about-title">About the Game</h2>
+          <p class="about-text">
+            Mergical invites you to a mystical island shrouded in mystery. Once
+            a flourishing paradise, the island now lies under a dark spell.
+            Using your merging skills and a touch of magic, revive the island
+            and restore it to its former glory. Solve enchanting puzzles, awaken
+            mythical creatures,<span
+              >and designa magical realm filled with beauty and wonder.</span
+            >
           </p>
           <img
-            class="imege-cloud-left"
-            src="./images/magical-atmosphere/cloud-left.webp"
-            alt="imege-cloud"
+            src="/images/about/about-heart-mob.webp"
+            alt="image heart"
+            class="about-heart"
           />
-        </div>
-        <div class="soundtrack-wrap">
-          <picture>
-            <source
-              srcset="./images/magical-atmosphere/mockup-2-1200.webp"
-              media="(min-width: 1200px)"
-            />
-            <img
-              src="./images/magical-atmosphere/mockup-2mob.webp"
-              alt="scrinshot game"
-              class="mockup-2mob"
-            />
-          </picture>
-          <p class="soundtrack-wrap-text">
-            Melodic Soundtrack: The soothing and mystical background music
-            enhances the magical vibe, making every moment memorable.
-          </p>
           <img
-            class="imege-cloud-rait"
-            src="./images/magical-atmosphere/cloud-rait.webp"
-            alt="imege-cloud"
+            src="/images/about/coin-1.webp"
+            alt="image coin"
+            class="about-coin"
           />
-        </div>
-        <div class="creatures-wrap">
-          <picture>
-            <source
-              srcset="./images/magical-atmosphere/mockup-3-1200.webp"
-              media="(min-width: 1200px)"
-            />
-            <img
-              src="./images/magical-atmosphere/mockup-3mob.webp"
-              alt="scrinshot game"
-              class="mockup-3mob"
-            />
-          </picture>
-          <p class="creatures-wrap-text">
-            Melodic Soundtrack: The soothing and mystical background music
-            enhances the magical vibe, making every moment memorable.
-          </p>
           <img
-            class="imege-cloud-left-2"
-            src="./images/magical-atmosphere/cloud-left.webp"
-            alt="imege-cloud"
+            src="/images/about/flower-pot-2.webp"
+            alt="image flower pot"
+            class="about-flower-pot"
+          />
+          <img
+            src="/images/about/tree-3.webp"
+            alt="image tree"
+            class="about-tree"
+          />
+          <img
+            src="/images/about/plant-4.webp"
+            alt="image plant"
+            class="about-plant"
+          />
+          <img
+            src="/images/about/flower-5.webp"
+            alt="image flower"
+            class="about-flower"
+          />
+          <img
+            src="/images/about/note-6.webp"
+            alt="image note"
+            class="about-note"
           />
         </div>
       </section>
-      <section id="features" class="container features-section">
+
+      <section id="magical-atmosphere" class="magical-atmosphere-section">
+        <div class="container">
+          <h2 class="atmosphere-title">Magical Atmosphere</h2>
+          <p class="atmosphere-subtitle">
+            The game offers a truly enchanting experience
+          </p>
+          <div class="wonder-wrap">
+            <picture>
+              <source
+                srcset="./images/magical-atmosphere/mockup-1-1200.webp"
+                media="(min-width: 1200px)"
+              />
+              <img
+                src="./images/magical-atmosphere/mockup-1mob.webp"
+                alt="scrinshot game"
+                class="mockup-1mob"
+              />
+            </picture>
+            <p class="wonder-wrap-text">
+              Visual Wonders: Immerse yourself in lush, glowing landscapes,
+              sparkling magical items, and radiant effects.
+            </p>
+            <img
+              class="imege-cloud-left"
+              src="./images/magical-atmosphere/cloud-left.webp"
+              alt="imege-cloud"
+            />
+          </div>
+          <div class="soundtrack-wrap">
+            <picture>
+              <source
+                srcset="./images/magical-atmosphere/mockup-2-1200.webp"
+                media="(min-width: 1200px)"
+              />
+              <img
+                src="./images/magical-atmosphere/mockup-2mob.webp"
+                alt="scrinshot game"
+                class="mockup-2mob"
+              />
+            </picture>
+            <p class="soundtrack-wrap-text">
+              Melodic Soundtrack: The soothing and mystical background music
+              enhances the magical vibe, making every moment memorable.
+            </p>
+            <img
+              class="imege-cloud-rait"
+              src="./images/magical-atmosphere/cloud-rait.webp"
+              alt="imege-cloud"
+            />
+          </div>
+          <div class="creatures-wrap">
+            <picture>
+              <source
+                srcset="./images/magical-atmosphere/mockup-3-1200.webp"
+                media="(min-width: 1200px)"
+              />
+              <img
+                src="./images/magical-atmosphere/mockup-3mob.webp"
+                alt="scrinshot game"
+                class="mockup-3mob"
+              />
+            </picture>
+            <p class="creatures-wrap-text">
+              Melodic Soundtrack: The soothing and mystical background music
+              enhances the magical vibe, making every moment memorable.
+            </p>
+            <img
+              class="imege-cloud-left-2"
+              src="./images/magical-atmosphere/cloud-left.webp"
+              alt="imege-cloud"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features-section">
+        <div class="container"></div>
         <h2 class="features-title">Features and Benefits</h2>
         <div class="features-card-wrap-one">
           <div class="features-card">
@@ -266,68 +275,73 @@
           </div>
         </div>
       </section>
-      <section id="create-magic" class="container create-magic-section">
-        <h2 class="create-magic-title">Ready to Create Magic?</h2>
-        <p class="create-magic-text">
-          Rebuild the island, discoverits secrets, and awaken your inner
-          magician. The adventure awaits—are you ready to weave wonders?
-        </p>
-        <div class="create-magic-wrap-btn">
-          <a
-            href="https://play.google.com/store/apps/details?id=com.fotoable.mergetown"
-            class="google-play-link"
-            target="_blank"
-            ><img
-              class="google-play-img"
-              src="/images/create-magic/google-play.webp"
-              alt="google play"
-            />
-            <p class="link-text">Download on <span>Google Play</span></p></a
-          >
-        </div>
-        <picture>
-          <source
-            srcset="/images/create-magic/cloud-rait-1200.webp"
-            media="(min-width: 1200px)"
-          />
-          <img
-            src="/images/create-magic/cloud-mob.webp"
-            alt="cloud"
-            class="create-magic-img-1"
-          />
-        </picture>
-        <picture>
-          <source
-            srcset="/images/create-magic/cloud-rait-1200.webp"
-            media="(min-width: 1200px)"
-          />
-          <img
-            src="/images/create-magic/cloud-mob.webp"
-            alt="cloud"
-            class="create-magic-img-2"
-          />
-        </picture>
-        <img
-          class="cloud-big"
-          src="/images/create-magic/cloud-left-top-big.webp"
-          alt="cloud"
-        />
-        <img
-          class="cloud-small"
-          src="/images/create-magic/cloud-left-small.webp"
-          alt="cloud"
-        />
-        <img
-          class="cloud-3"
-          src="/images/create-magic/cloud-left-bottom.webp"
-          alt="cloud"
-        />
-        <img class="girl" src="/images/create-magic/girl.webp" alt="girl" />
-      </section>
-      <section id="gallery" class="container gallery-section">
-        <h2 class="gallery-title">Gallery</h2>
 
-        <!-- <div class="swiper-container">
+      <section id="create-magic" class="create-magic-section">
+        <div class="container">
+          <h2 class="create-magic-title">Ready to Create Magic?</h2>
+          <p class="create-magic-text">
+            Rebuild the island, discoverits secrets, and awaken your inner
+            magician. The adventure awaits—are you ready to weave wonders?
+          </p>
+          <div class="create-magic-wrap-btn">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.fotoable.mergetown"
+              class="google-play-link"
+              target="_blank"
+              ><img
+                class="google-play-img"
+                src="/images/create-magic/google-play.webp"
+                alt="google play"
+              />
+              <p class="link-text">Download on <span>Google Play</span></p></a
+            >
+          </div>
+          <picture>
+            <source
+              srcset="/images/create-magic/cloud-rait-1200.webp"
+              media="(min-width: 1200px)"
+            />
+            <img
+              src="/images/create-magic/cloud-mob.webp"
+              alt="cloud"
+              class="create-magic-img-1"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="/images/create-magic/cloud-rait-1200.webp"
+              media="(min-width: 1200px)"
+            />
+            <img
+              src="/images/create-magic/cloud-mob.webp"
+              alt="cloud"
+              class="create-magic-img-2"
+            />
+          </picture>
+          <img
+            class="cloud-big"
+            src="/images/create-magic/cloud-left-top-big.webp"
+            alt="cloud"
+          />
+          <img
+            class="cloud-small"
+            src="/images/create-magic/cloud-left-small.webp"
+            alt="cloud"
+          />
+          <img
+            class="cloud-3"
+            src="/images/create-magic/cloud-left-bottom.webp"
+            alt="cloud"
+          />
+          <img class="girl" src="/images/create-magic/girl.webp" alt="girl" />
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <h2 class="gallery-title">Gallery</h2>
+
+          <!-- <div class="swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">Slide 1</div>
             <div class="swiper-slide">Slide 2</div>
@@ -340,101 +354,111 @@
           <div class="swiper-button-prev"></div>
         </div>
          -->
-      </section>
-      <section id="reviews" class="container reviews-section">
-        <h2 class="reviews-title">Reviews</h2>
+        </div>
       </section>
 
-      <section id="faq" class="container faq-section">
-        <h2 class="faq-title">FAQ</h2>
-        <div class="faq-list">
-          <div class="faq-item">
-            <div class="faq-question">
-              Is the game free to play? <span class="faq-toggle">+</span>
+      <section id="reviews" class="reviews-section">
+        <div class="container">
+          <h2 class="reviews-title">Reviews</h2>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <div class="container">
+          <h2 class="faq-title">FAQ</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <div class="faq-question">
+                Is the game free to play? <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Yes, the game is free to play with optional in-app purchases for
+                extra boosts and bonuses.
+              </div>
             </div>
-            <div class="faq-answer">
-              Yes, the game is free to play with optional in-app purchases for
-              extra boosts and bonuses.
+            <div class="faq-item">
+              <div class="faq-question">
+                Can I play offline? <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Certain features require an internet connection, but most parts
+                of the game can be played offline.
+              </div>
             </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              Can I play offline? <span class="faq-toggle">+</span>
+            <div class="faq-item">
+              <div class="faq-question">
+                How do I save my progress? <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Link your account to ensure your progress is saved and synced
+                across devices.
+              </div>
             </div>
-            <div class="faq-answer">
-              Certain features require an internet connection, but most parts of
-              the game can be played offline.
+            <div class="faq-item">
+              <div class="faq-question">
+                Are there ads in the game? <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Ads are optional and provide additional rewards when viewed.
+              </div>
             </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              How do I save my progress? <span class="faq-toggle">+</span>
+            <div class="faq-item">
+              <div class="faq-question">
+                How do I unlock new areas? <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Merge items and complete puzzles to unlock and restore new areas
+                of the island.
+              </div>
             </div>
-            <div class="faq-answer">
-              Link your account to ensure your progress is saved and synced
-              across devices.
+            <div class="faq-item">
+              <div class="faq-question">
+                What makes this game unique? <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Its magical atmosphere, customizable island, and mythical
+                creatures create an unparalleled merging experience.
+              </div>
             </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              Are there ads in the game? <span class="faq-toggle">+</span>
+            <div class="faq-item">
+              <div class="faq-question">
+                Are there updates and new content?
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Yes, the game is regularly updated with new areas, creatures,
+                and challenges.
+              </div>
             </div>
-            <div class="faq-answer">
-              Ads are optional and provide additional rewards when viewed.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              How do I unlock new areas? <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-              Merge items and complete puzzles to unlock and restore new areas
-              of the island.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              What makes this game unique? <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-              Its magical atmosphere, customizable island, and mythical
-              creatures create an unparalleled merging experience.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              Are there updates and new content?
-              <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-              Yes, the game is regularly updated with new areas, creatures, and
-              challenges.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question">
-              Can I interact with friends in the game?
-              <span class="faq-toggle">+</span>
-            </div>
-            <div class="faq-answer">
-              Absolutely! Connect with friends to share your progress and
-              compete in friendly challenges.
+            <div class="faq-item">
+              <div class="faq-question">
+                Can I interact with friends in the game?
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Absolutely! Connect with friends to share your progress and
+                compete in friendly challenges.
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="container footer-section">
-      <div class="footer-wrap">
-        <div class="footer-inner">
-          <a href="./privacy-policy.html" class="policy">Privacy Policy</a>
-          <a href="./terms-of-service.html" class="service"
-            >Terms and Conditions</a
-          >
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-wrap">
+          <div class="footer-inner">
+            <a href="./privacy-policy.html" class="policy">Privacy Policy</a>
+            <a href="./terms-of-service.html" class="service"
+              >Terms and Conditions</a
+            >
+          </div>
+          <p class="reserved">All rights reserved, 2025. gameflowburst.com</p>
         </div>
-        <p class="reserved">All rights reserved, 2025. gameflowburst.com</p>
       </div>
     </footer>
+
     <script type="module" src="main.js"></script>
   </body>
 </html>
