@@ -12,8 +12,8 @@
   </head>
   <body>
     <section class="header-section">
-      <div class="heder-container">
-        <a href="./index.html" class="logo">
+      <div class="header-container">
+        <a href="./index.html" class="logo-link">
           <picture>
             <source
               srcset="/images/logo/logo-1200.webp"
@@ -26,25 +26,39 @@
             />
           </picture>
         </a>
-        <button class="burger-menu" type="button">
+
+        <button class="burger-menu-btn" type="button">
           <svg
-            width="40"
-            height="40"
+            width="36"
+            height="36"
             viewBox="0 0 40 40"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M5 10H35M5 20H35M5 30H35"
-              stroke="black"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
           </svg>
         </button>
+
         <nav class="header-nav">
-          <ul class="header-nav-list">
+          <button class="burger-menu-btn-close" type="button">
+            <svg
+              width="36"
+              height="36"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.6663 31.6667L8.33301 29.3333L17.6663 20L8.33301 10.6667L10.6663 8.33333L19.9997 17.6667L29.333 8.33333L31.6663 10.6667L22.333 20L31.6663 29.3333L29.333 31.6667L19.9997 22.3333L10.6663 31.6667Z"
+              />
+            </svg>
+          </button>
+          <ul class="nav-list">
             <li class="nav-item">
               <a href="#home" class="nav-link">Home</a>
             </li>
@@ -75,26 +89,48 @@
             </li>
           </ul>
         </nav>
-
-        <button class="burger-menu-close" type="button">
-          <svg
-            width="40"
-            height="40"
-            viewBox="0 0 40 40"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M10.6663 31.6667L8.33301 29.3333L17.6663 20L8.33301 10.6667L10.6663 8.33333L19.9997 17.6667L29.333 8.33333L31.6663 10.6667L22.333 20L31.6663 29.3333L29.333 31.6667L19.9997 22.3333L10.6663 31.6667Z"
-              fill="black"
-            />
-          </svg>
-        </button>
       </div>
     </section>
 
-    <section id="hero" class="hero-section">
-      <div class="container"></div>
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-inner">
+          <h2 class="hero-title">Mergical - Fun Match Island Game</h2>
+          <p class="hero-text">
+            Unleash your magic and rebuild an enchanting island!
+          </p>
+          <a
+            class="btn-google-play"
+            href="https://play.google.com/store/apps/details?id=com.fotoable.mergetown"
+            target="_blank"
+          >
+            <img
+              class="btn-img-google-play"
+              src="/images/hero/google-play.webp"
+              alt="image google play"
+            />
+            <p class="btn-text-google-play">
+              Download on <span>Google Play</span>
+            </p>
+          </a>
+        </div>
+        <picture>
+          <source
+            srcset="/images/hero/hero-girl-1200.webp"
+            media="(min-width: 1200px)"
+          />
+          <img
+            src="/images/hero/hero-girl-mob.webp"
+            alt="image girl"
+            class="hero-img-girl"
+          />
+        </picture>
+        <img
+          src="/images/hero/hero-arrow-1200.webp"
+          alt="image arrow"
+          class="hero-img-arrow"
+        />
+      </div>
     </section>
 
     <main>
