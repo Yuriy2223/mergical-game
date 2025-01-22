@@ -1,10 +1,12 @@
-.create-magic {
-  position: relative;
+.create-magic-section {
   background: linear-gradient(180deg, #0f6691 0%, #024d55 100%);
 
   @media screen and (min-width: 1200px) {
     background: linear-gradient(180deg, #0f6691 0%, #024d55 63.25%);
   }
+}
+.create-magic-container{
+  position: relative;
 }
 .create-magic-title {
   font-family: "Piedra", sans-serif;
@@ -29,7 +31,7 @@
 
   @media screen and (min-width: 1200px) {
     font-size: 18px;
-    margin: 0 auto 115px;
+    margin: 0 auto 112px;
     width: 681px;
   }
 }
@@ -91,8 +93,8 @@
   width: 70px;
   height: 51px;
   position: absolute;
-  top: 6px;
-  right: 18px;
+  top: 12px;
+  right: 19px;
   z-index: 1;
 
   @media screen and (min-width: 1200px) {
@@ -106,8 +108,8 @@
   width: 62px;
   height: 45px;
   position: absolute;
-  top: 22px;
-  right: 44px;
+  top: 29px;
+  right: 45px;
 
   @media screen and (min-width: 1200px) {
     width: 233px;
@@ -141,7 +143,7 @@
     z-index: 1;
   }
 }
-.cloud-3 {
+.cloud-girl {
   display: none;
 
   @media screen and (min-width: 1200px) {
@@ -149,11 +151,11 @@
     width: 147px;
     height: 131px;
     position: absolute;
-    bottom: 80px;
-    left: 65px;
+    bottom: 70px;
+    left: 110px;
   }
 }
-.girl {
+.girl-magic {
   display: none;
 
   @media screen and (min-width: 1200px) {
@@ -161,8 +163,8 @@
     width: 131px;
     height: 154px;
     position: absolute;
-    bottom: 136px;
-    left: 86px;
+    bottom: 120px;
+    left: 130px;
     z-index: 1;
   }
 }
