@@ -1,9 +1,15 @@
 .about-section {
-  position: relative;
   background: linear-gradient(180deg, #024d55 0%, #0f6691 100%);
 
   @media screen and (min-width: 1200px) {
     background: linear-gradient(180deg, #024d55 45.67%, #0f6691 100%);
+  }
+}
+.about-container {
+  position: relative;
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 372px;
   }
 }
 .about-title {
@@ -26,14 +32,15 @@
   font-size: 14px;
   color: #fcfcf0;
   margin-bottom: 44px;
+  width: 257px;
 
   span {
     width: 142px;
     display: block;
 
     @media screen and (min-width: 1200px) {
-      width: 100%;
-      display: inline;
+       width: 100%; 
+       display: inline; 
     }
   }
 
@@ -41,14 +48,13 @@
     font-size: 18px;
     width: 466px;
     margin: 0 auto;
-    margin-bottom: 372px;
   }
 }
 .about-heart {
   width: 150px;
   height: 94px;
   position: absolute;
-  right: 10px;
+  right: 16px;
   bottom: 24px;
 
   @media screen and (min-width: 1200px) {
