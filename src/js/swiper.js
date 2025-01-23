@@ -30,7 +30,6 @@ const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
   spaceBetween: 10,
   centeredSlides: true,
-  freeMode: true,
   grabCursor: true,
   loop: true,
   pagination: {
@@ -41,13 +40,13 @@ const swiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  speed: 800, // Швидкість анімації
+});
+ // freeMode: true,
   // autoplay: {
   //   delay: 3000,
   //   disableOnInteraction: false,
   // },
-  speed: 800, // Швидкість анімації
-});
-
 
 // var swiper = new Swiper('.swiper-container', {
 //   slidesPerView: 1,
