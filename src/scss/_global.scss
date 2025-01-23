@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Mali", sans-serif;
   background-color: #0f6691;
   font-weight: 400;
@@ -8,12 +8,9 @@ body{
   width: 320px;
   padding: 24px 16px;
   margin: 0 auto;
-  // position: relative;
 
   @media screen and (min-width: 1200px) {
     width: 1200px;
-    padding: 80px 72px ;
+    padding: 80px 72px;
   }
 }
-
-
