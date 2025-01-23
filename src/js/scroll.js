@@ -12,7 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     const headerHeight = header?.offsetHeight || 0;
 
     const offset = targetElement.offsetTop - headerHeight - 60; // Враховуємо відступ
-
     //     // Виконуємо прокрутку до цільового елемента
     //     window.scrollTo({
     //       top: Math.max(offset, 0),
@@ -45,7 +44,6 @@ function smoothScrollTo(start, end, duration) {
 
   requestAnimationFrame(animationStep);
 }
-
 // Easing функція для плавної зміни швидкості
 function easeInOutQuad(t) {
   return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
