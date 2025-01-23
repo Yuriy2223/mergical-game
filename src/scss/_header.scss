@@ -25,11 +25,17 @@
     padding: 4px 24px 4px 30px;
   }
 }
-.nav-item{
+.nav-item {
   transition: all 300ms ease;
 }
-.nav-item:hover{
+.nav-item:hover {
   transform: scale(0.94);
+}
+.logo-link {
+  transition: all 300ms ease;
+  &:hover {
+    transform: scale(0.94);
+  }
 }
 .logo-img {
   width: 80px;
@@ -127,7 +133,7 @@
     flex-direction: row;
     // align-items: center;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px 36px;
   }
 }
 .nav-link {

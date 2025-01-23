@@ -1,3 +1,7 @@
+.privacy-section{
+  padding: 30px 72px;
+}
+
 .btn-goback {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -38,8 +42,8 @@
     font-family: "Piedra", sans-serif;
     font-weight: 400;
     font-size: 48px;
-    margin-bottom: 20px;
-    margin-top: 6px;
+    margin-bottom: 10px;
+    margin-top: 2px;
   }
 }
 
@@ -58,29 +62,56 @@
 .subtitle-privacy {
   font-family: "Mali", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: #fcfcf0;
+ margin-bottom: 6px;
 
   @media screen and (min-width: 1200px) {
     font-size: 22px;
   }
 }
-
 .privacy-list {
   font-family: "Mali", sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #fcfcf0;
   list-style: disc;
-  padding-left: 16px;
+  padding-left: 20px;
   margin-bottom: 16px;
+
+  li{
+    margin-bottom: 10px;
+  }
 
   @media screen and (min-width: 1200px) {
     font-size: 18px;
     padding-left: 30px;
   }
 }
+.privacy-list-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fcfcf0;
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 16px;
 
+  li {
+    transition: all 300ms ease;
+
+    &:hover,
+    &:active {
+      transform: scale(0.99);
+      
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+}
 .privacy-link {
   font-family: "Mali", sans-serif;
   font-weight: 600;
