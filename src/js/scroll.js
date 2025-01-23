@@ -19,7 +19,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     //     });
 
     // Запускаємо кастомну анімацію прокрутки
-    smoothScrollTo(window.scrollY, offset, 1500);
+    smoothScrollTo(window.scrollY, offset, 1800);
   });
 });
 
