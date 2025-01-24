@@ -59,7 +59,7 @@ export default defineConfig(({ command }) => ({
     injectHTML(),
     FullReload(["./src/**/*.html", "./src/**/*.scss"]),
     ViteImageOptimizer({
-      exclude: /^sprite.svg$/,//  не оптимізовувати svg
+      exclude: /^sprite.svg$/, //  не оптимізовувати svg
       png: { quality: 70 },
       jpeg: { quality: 70 },
       webp: { quality: 70 },
