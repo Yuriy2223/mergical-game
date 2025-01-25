@@ -1,0 +1,39 @@
+@use "./variables" as *;
+@use "./mixins" as *;
+
+body {
+  font-family: $font-family-primary;
+  background-color: #0f6691;
+  font-weight: 400;
+  font-size: 14px;
+  color: $color-text;
+}
+.container {
+  width: 320px;
+  padding: 24px 16px;
+  margin: 0 auto;
+  @include media(desktop) {
+    width: 1200px;
+    padding: 80px 72px;
+  }
+}
+.title {
+  font-family: $font-family-second;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $color-heading;
+  text-align: center;
+  @include media(desktop) {
+    font-size: 48px;
+  }
+}
+.text {
+  font-family: $font-family-primary;
+  font-weight: 500;
+  font-size: 14px;
+  color: $color-text;
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}

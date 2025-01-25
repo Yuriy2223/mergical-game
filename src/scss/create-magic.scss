@@ -1,36 +1,24 @@
+@use "./common/index" as *;
+
 .create-magic-section {
   background: linear-gradient(180deg, #0f6691 0%, #024d55 100%);
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     background: linear-gradient(180deg, #0f6691 0%, #024d55 63.25%);
   }
 }
-.create-magic-container{
+.create-magic-container {
   position: relative;
 }
 .create-magic-title {
-  font-family: "Piedra", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  color: #f3be00;
-  text-align: center;
   margin-bottom: 24px;
-
-  @media screen and (min-width: 1200px) {
-    font-size: 48px;
+  @include media(desktop) {
     margin-bottom: 112px;
   }
 }
 .create-magic-text {
-  font-family: "Mali", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: #fcfcf0;
   margin-bottom: 20px;
 
-  @media screen and (min-width: 1200px) {
-    font-size: 18px;
+  @include media(desktop) {
     margin: 0 auto 112px;
     width: 681px;
   }
@@ -47,7 +35,7 @@
   height: 50px;
 
   box-shadow: 0 0 10px 4px rgba(167, 139, 1, 0.8);
-  background: #e7c000;
+  background-color: $color-button;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -59,7 +47,7 @@
     box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.4);
   }
 
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     width: 185px;
     height: 67px;
     padding: 8px 16px;
@@ -67,21 +55,20 @@
   }
 }
 .link-text {
-  font-family: "Inter", sans-serif;
+  font-family: $font-family-tertiary;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  color: #000;
+  color: $color-black;
 
   span {
     font-weight: 700;
-
-    @media screen and (min-width: 1200px) {
+    @include media(desktop) {
       font-size: 20px;
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     font-size: 16px;
   }
 }
@@ -96,8 +83,7 @@
   top: 12px;
   right: 19px;
   z-index: 1;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     width: 233px;
     height: 170px;
     top: 62px;
@@ -110,8 +96,7 @@
   position: absolute;
   top: 29px;
   right: 45px;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     width: 233px;
     height: 170px;
     top: 97px;
@@ -120,8 +105,7 @@
 }
 .cloud-big {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 185px;
     height: 140px;
@@ -132,8 +116,7 @@
 }
 .cloud-small {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 104px;
     height: 79px;
@@ -145,8 +128,7 @@
 }
 .cloud-girl {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 147px;
     height: 131px;
@@ -157,8 +139,7 @@
 }
 .girl-magic {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 131px;
     height: 154px;

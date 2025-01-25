@@ -1,0 +1,34 @@
+@use "./breakpoints" as *;
+
+@mixin media($_screen) {
+  @if $_screen == mobile {
+    @media screen and (min-width: $mobile) {
+      @content;
+    }
+  } @else if $_screen == to-tablet {
+    @media screen and (max-width: $to-tablet) {
+      @content;
+    }
+  } @else if $_screen == tablet {
+    @media screen and (min-width: $tablet) {
+      @content;
+    }
+  } @else if $_screen == to-desktop {
+    @media screen and (max-width: $to-desktop) {
+      @content;
+    }
+  } @else if $_screen == desktop {
+    @media screen and (min-width: $desktop) {
+      @content;
+    }
+  }
+}
+
+// @mixin font($_fsz, $_lnh) {
+//   font-size: #{$_fsz}px;
+
+//   $line-height-ratio: math.div($_lnh, $_fsz);
+//   $rounded-ratio: math.round($line-height-ratio * 100) / 100;
+
+//   line-height: $rounded-ratio;
+// }

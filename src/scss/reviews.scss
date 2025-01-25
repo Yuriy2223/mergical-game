@@ -1,29 +1,29 @@
+@use "./common/index" as *;
+
 .reviews-section {
   background: linear-gradient(180deg, #0f6691 0%, #024d55 100%);
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     background: linear-gradient(180deg, #0e648c 40.19%, #024d55 100%);
   }
 }
 .reviews-title {
-  font-family: "Piedra", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  color: #f3be00;
-  text-align: center;
+  // font-family: "Piedra", sans-serif;
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.25;
+  // color: #f3be00;
+  // text-align: center;
   margin-bottom: 22px;
-
-  @media screen and (min-width: 1200px) {
-    font-size: 40px;
+  @include media(desktop) {
+    // font-size: 40px;
+    margin-bottom: 32px;
   }
 }
 .container-swiper-reviews {
   position: relative;
   width: 100%;
   height: 212px;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: none;
   }
 }
@@ -34,12 +34,11 @@
 }
 .container-grid-reviews {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: grid;
-    grid-template-columns: 250px 338px 248px; 
-    grid-template-rows: 336px 212px; 
-    gap: 50px 80px; 
+    grid-template-columns: 250px 338px 248px;
+    grid-template-rows: 336px 212px;
+    gap: 50px 80px;
     grid-template-areas:
       "card1 card2 card3"
       "card4 card4 card3";

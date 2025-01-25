@@ -1,51 +1,37 @@
+@use "./common/index" as *;
+
 .about-section {
   background: linear-gradient(180deg, #024d55 0%, #0f6691 100%);
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     background: linear-gradient(180deg, #024d55 45.67%, #0f6691 100%);
   }
 }
 .about-container {
   position: relative;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     padding-bottom: 372px;
   }
 }
 .about-title {
-  font-family: "Piedra", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  color: #f3be00;
   text-align: center;
   margin-bottom: 16px;
-
-  @media screen and (min-width: 1200px) {
-    font-size: 48px;
+  @include media(desktop) {
     margin-bottom: 92px;
   }
 }
 .about-text {
-  font-family: "Mali", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  color: #fcfcf0;
   margin-bottom: 44px;
   width: 257px;
-
   span {
     width: 142px;
     display: block;
-
-    @media screen and (min-width: 1200px) {
-       width: 100%; 
-       display: inline; 
+    @include media(desktop) {
+      width: 100%;
+      display: inline;
     }
   }
 
-  @media screen and (min-width: 1200px) {
-    font-size: 18px;
+  @include media(desktop) {
     width: 466px;
     margin: 0 auto;
   }
@@ -56,15 +42,13 @@
   position: absolute;
   right: 16px;
   bottom: 24px;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: none;
   }
 }
 .about-coin {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 200px;
     height: 200px;
@@ -75,8 +59,7 @@
 }
 .about-flower-pot {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 200px;
     height: 200px;
@@ -87,8 +70,7 @@
 }
 .about-tree {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 200px;
     height: 200px;
@@ -99,8 +81,7 @@
 }
 .about-plant {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 200px;
     height: 200px;
@@ -111,8 +92,7 @@
 }
 .about-flower {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 200px;
     height: 200px;
@@ -123,8 +103,7 @@
 }
 .about-note {
   display: none;
-
-  @media screen and (min-width: 1200px) {
+  @include media(desktop) {
     display: block;
     width: 200px;
     height: 200px;
