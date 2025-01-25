@@ -18,3 +18,96 @@
     font-size: 40px;
   }
 }
+.container-swiper-reviews {
+  position: relative;
+  width: 100%;
+  height: 212px;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+.swiper-container-reviews {
+  border-radius: 50px;
+  width: 248px;
+  height: 156px;
+}
+.container-grid-reviews {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 250px 338px 248px; /* Ширини колонок */
+    grid-template-rows: 336px 212px; /* Висоти рядків */
+    gap: 50px 80px; /* Відстані між рядками та колонками */
+    grid-template-areas:
+      "card1 card2 card3"
+      "card4 card4 card3";
+  }
+}
+.review-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card1 {
+  grid-area: card1;
+}
+.card2 {
+  grid-area: card2;
+}
+.card3 {
+  grid-area: card3;
+}
+.card4 {
+  grid-area: card4;
+}
+.card1-img1 {
+  border-radius: 50px;
+  width: 249px;
+  height: 335px;
+}
+.card2-img1 {
+  border-radius: 50px;
+  width: 338px;
+  height: 212px;
+}
+.card3-img1 {
+  border-radius: 50px;
+  width: 249px;
+  height: 335px;
+}
+.card4-img1 {
+  border-radius: 50px;
+  width: 338px;
+  height: 212px;
+}
+.card1-img2 {
+  position: absolute;
+  width: 212px;
+  height: 133px;
+  top: 229px;
+  right: 67px;
+}
+.card2-img2 {
+  position: absolute;
+  width: 130px;
+  height: 82px;
+  bottom: 45px;
+  right: 202px;
+}
+.card3-img2 {
+  position: absolute;
+  width: 212px;
+  height: 133px;
+  bottom: 90px;
+  left: 70px;
+}
+.card4-img2 {
+  position: absolute;
+  width: 130px;
+  height: 82px;
+  top: 147px;
+  right: 166px;
+}
