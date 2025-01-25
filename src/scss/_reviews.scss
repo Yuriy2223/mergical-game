@@ -37,9 +37,9 @@
 
   @media screen and (min-width: 1200px) {
     display: grid;
-    grid-template-columns: 250px 338px 248px; /* Ширини колонок */
-    grid-template-rows: 336px 212px; /* Висоти рядків */
-    gap: 50px 80px; /* Відстані між рядками та колонками */
+    grid-template-columns: 250px 338px 248px; 
+    grid-template-rows: 336px 212px; 
+    gap: 50px 80px; 
     grid-template-areas:
       "card1 card2 card3"
       "card4 card4 card3";
