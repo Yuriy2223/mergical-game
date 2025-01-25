@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/mergical-game/",
+    "build": "vite build --base=/mergical-game/ --emptyOutDir",
     "preview": "vite preview",
     "watch": "npx vite build --watch --emptyOutDir",
     "deploy": "gh-pages -d dist"
