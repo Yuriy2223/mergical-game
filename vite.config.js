@@ -39,34 +39,53 @@
 //   },
 // }));
 
+// import { defineConfig } from "vite";
+// import { glob } from "glob";
+// import injectHTML from "vite-plugin-html-inject";
+// import FullReload from "vite-plugin-full-reload";
+// // import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
+
+// // https://vitejs.dev/config/
+// export default defineConfig(({ command }) => ({
+//   root: "src",
+//   build: {
+//     sourcemap: command === "serve",
+//     rollupOptions: {
+//       input: glob.sync("./src/*.html"),
+//     },
+//     outDir: "../dist",
+//   },
+//   plugins: [
+//     injectHTML(),
+//     FullReload(["./src/**/*.html", "./src/**/*.scss"]),
+//     // ViteImageOptimizer({
+//     //   exclude: /^sprite.svg$/, //  не оптимізовувати svg
+//     //   png: { quality: 70 },
+//     //   jpeg: { quality: 70 },
+//     //   webp: { quality: 70 },
+//     // }), // Оптимізація зображень
+//   ],
+//   server: {
+//     host: true, // Дозвіл на зовнішні підключення
+//     // port: 3000,
+//   },
+// }));
 import { defineConfig } from "vite";
 import { glob } from "glob";
 import injectHTML from "vite-plugin-html-inject";
 import FullReload from "vite-plugin-full-reload";
-import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 
-// https://vitejs.dev/config/
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   root: "src",
   build: {
-    sourcemap: command === "serve",
+    // sourcemap: command === "serve",
+    outDir: "../dist",
     rollupOptions: {
       input: glob.sync("./src/*.html"),
     },
-    outDir: "../dist",
   },
-  plugins: [
-    injectHTML(),
-    FullReload(["./src/**/*.html", "./src/**/*.scss"]),
-    ViteImageOptimizer({
-      exclude: /^sprite.svg$/, //  не оптимізовувати svg
-      png: { quality: 70 },
-      jpeg: { quality: 70 },
-      webp: { quality: 70 },
-    }), // Оптимізація зображень
-  ],
+  plugins: [injectHTML(), FullReload(["./src/**/*.html", "./src/**/*.scss"])],
   server: {
-    host: true, // Дозвіл на зовнішні підключення
-    // port: 3000,
+    host: true,
   },
-}));
+});

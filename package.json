@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build --base=/mergical-game/",
     "preview": "vite preview",
-    "watch": "npx vite build --watch"
+    "watch": "npx vite build --watch --emptyOutDir",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "glob": "^11.0.1",
     "sass-embedded": "^1.83.4",
     "vite": "^6.0.5",
@@ -18,6 +20,7 @@
     "vite-plugin-image-optimizer": "^1.1.8"
   },
   "dependencies": {
+    "sharp": "^0.33.5",
     "swiper": "^11.2.1"
   }
 }
